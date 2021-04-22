@@ -1,9 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const Service = () => {
     return (
         <>
-        <h1>Hello Service</h1>
+        <div className="container">
+            <h1>hello service</h1>
+        </div>
         </>
     )
 }
