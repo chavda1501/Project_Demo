@@ -28,6 +28,10 @@ body {
   color: #3498ab !important;
 }
 
+#header {
+  margin-top: 80px;
+}
+
 .btn-start {
   background-color: #3498ab;
   color: #fff;
@@ -35,6 +39,8 @@ body {
   text-decoration: none;
   padding: 10px 15px;
   border: 1px solid transparent;
+  letter-spacing: 1px;
+  transition: 0.5s;
 }
 .btn-start:hover {
   color: #3498ab !important;
@@ -43,4 +49,21 @@ body {
 }
 .brand-name {
   color: #3498ab;
+}
+.left-side h2 {
+  font-size: 20px;
+}
+.header-img .animted {
+  animation: mover 1s infinite  alternate;
+}
+.header-img img {
+  width: 100%;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }

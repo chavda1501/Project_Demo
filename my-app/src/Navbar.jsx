@@ -16,10 +16,10 @@ const Navbar = () => {
                             <NavLink activeClassName="menu-active" exact className="nav-link active" aria-current="page" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink activeClassName="menu-active" className="nav-link" to="/about">About</NavLink>
+                            <NavLink activeClassName="menu-active" className="nav-link" to="/service">Service</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink activeClassName="menu-active" className="nav-link" to="/service">Service</NavLink>
+                            <NavLink activeClassName="menu-active" className="nav-link" to="/about">About</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink activeClassName="menu-active" className="nav-link" to="/contact">Contact</NavLink>
