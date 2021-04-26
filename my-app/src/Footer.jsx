@@ -3,7 +3,9 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-        <h1> footer </h1>
+        <footer className="bg-light text-center">
+            <p>Privcy Policy Terams and Condition</p>
+        </footer>
         </>
     )
 }
