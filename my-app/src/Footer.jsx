@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <>
         <footer className="bg-light text-center">
-            <p>Privcy Policy Terams and Condition</p>
+            <p>Privcy Policy Terams and Condition privacy</p> 
         </footer>
         </>
     )
