@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from './Cards'
-import web from '../src/images/img-1.png'
-
+import web from '../assets/images/img-1.png'
 const Service = (prop) => {
     return (
         <>
@@ -17,15 +16,6 @@ const Service = (prop) => {
                 </div>
                 <div className="col-md-4">
                     <Card  imgsrc={web} title="Web Devlopment3"/>
-                </div>
-                <div className="col-md-4">
-                    <Card  imgsrc={web} title="Web Devlopment4"/>
-                </div>
-                <div className="col-md-4">
-                    <Card  imgsrc={web} title="Web Devlopment5"/>
-                </div>
-                <div className="col-md-4">
-                    <Card  imgsrc={web} title="Web Devlopment6"/>
                 </div>
             </div>
         </div>

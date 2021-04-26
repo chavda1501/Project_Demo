@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import web from '../src/images/img-1.png';
-
+import web from '../assets/images/img-1.png'
 const Comman = (props) => {
     return (
         <>
