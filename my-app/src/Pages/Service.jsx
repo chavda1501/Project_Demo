@@ -18,6 +18,8 @@ const Service = (prop) => {
                     <Card  imgsrc={web} title="Web Devlopment3"/>
                 </div>
             </div>
+            
+
         </div>
        
         </>
