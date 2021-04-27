@@ -1,7 +1,6 @@
 import React from 'react';
 import '../assets/style/App.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
 import About from '../Pages/About';
 import Contact from '../Pages/Contact';
 import Home from '../Pages/Home';
